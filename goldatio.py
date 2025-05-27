@@ -69,9 +69,9 @@ def email_alert(subject, body, to):                                             
     msg['subject'] = subject                                                                                                                    #<-- Set the subject of the mail
     msg['to'] = to                                                                                                                              #<-- Set to dest of the mail
 
-    user = "goldatio.prod@gmail.com"                                                                                                            #<-- starting the smtp server with defining the mail who send the mail
+    user = "***********************"                                                                                                            #<-- starting the smtp server with defining the mail who send the mail
     msg['from'] = user                                                                                                                          #<-- So... set the mail sender
-    password = "icfgnulneoywuzkk"                                                                                                               #<-- And set the secret key for send a mail with a prog
+    password = "****************"                                                                                                               #<-- And set the secret key for send a mail with a prog
 
     server = smtplib.SMTP("smtp.gmail.com", 587)                                                                                                #<-- Setting the smtp server
     server.starttls()
