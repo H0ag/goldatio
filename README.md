@@ -1,23 +1,23 @@
 
-# 🟡 Goldatio
+# Goldatio
 
 > 📚 Summary engine based on Wikipedia, built in Python using Tkinter.
 
 Goldatio is one of my very first programming projects, made before the rise of generative AIs like ChatGPT.  
 Its purpose? Let the user enter a name (of a person, object, concept...) and get a summarized and translated result via the Wikipedia API.
 
-This is a **historical** project for me — I’m preserving it as a memory of where I started.
+This is a historical project for me — I’m preserving it as a memory of where I started.
 
 ---
 
-## 🔍 Features
+## Features
 
-- Search any topic on **Wikipedia**
+- Search any topic on Wikipedia
 - Automatically generates a summary (up to 28 sentences)
-- Translates result into **English** (via `googletrans`)
-- Graphical interface built with **Tkinter**
+- Translates result into English (via `googletrans`)
+- Graphical interface built with Tkinter
 - Copy result to clipboard
-- Send summary via **email** (SMTP feature originally built-in)
+- Send summary via email (SMTP feature originally built-in)
 - Bonus features:
   - Save/load text from files
   - App and author info
@@ -26,7 +26,7 @@ This is a **historical** project for me — I’m preserving it as a memory of w
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 - `Python 3.x`
 - `tkinter` – GUI
@@ -38,15 +38,15 @@ This is a **historical** project for me — I’m preserving it as a memory of w
 
 ---
 
-## 👤 About the Author
+## About the Author
 
 > My name is Maël, I was 14 when I built this project.  
 I was learning Python, exploring graphical interfaces, and working with external APIs.  
-Goldatio was my very first attempt at building a **personal assistant** — before AI made it easy.
+Goldatio was my very first attempt at building a personal assistant — before AI made it easy.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 goldatio.py      # Main source file (left untouched since its creation)
@@ -56,22 +56,22 @@ icons/           # Icon used in the window
 
 ---
 
-## 🏛️ Why This Project Matters
+## Why This Project Matters
 
-Goldatio represents my **first real step** into useful programming.  
+Goldatio represents my first real step into useful programming.  
 I wanted a tool that could understand a query, look things up, and summarize it for me.  
 Now that's something AIs can do in seconds — but back then, it was just me and Python, figuring it out.
 
 ---
 
-## 🕰️ Status
+## Status
 
-📦 **Archived project** — preserved as a memory.  
+📦 Archived project — preserved as a memory.  
 No updates planned, unless for documentation or critical fixes.
 
 ---
 
-## ✨ Thanks!
+## Thanks!
 
 Thanks to everyone who supported my early steps into programming.  
 And if you’re reading this README... maybe you’re building your own Goldatio too.
